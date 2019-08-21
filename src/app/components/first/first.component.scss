@@ -1,0 +1,32 @@
+.bg-main {
+  background: #fff;
+  width: 100%;
+  height: calc(100vh - 56px);
+
+  .top {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  .mid {
+    width: 100%;
+    height: 70vh;
+    margin:0;
+    .mid-left{
+      padding:0;
+    }
+    .mid-right{
+      padding:0;
+    }
+  }
+
+  .bot {
+    width: 100%;
+    background:#eee;
+    height: calc(10vh - 56px);
+  }
+}
